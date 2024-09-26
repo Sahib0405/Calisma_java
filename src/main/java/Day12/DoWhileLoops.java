@@ -1,7 +1,9 @@
-import java.util.Scanner;
-public class StringManipulations02 {
-    public static void main(String[] args) {
+package Day12;
 
+import java.util.Scanner;
+
+public class DoWhileLoops {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
@@ -26,8 +28,5 @@ public class StringManipulations02 {
             counter++;
 
         } while (true);
-
-
-
     }
 }

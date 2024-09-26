@@ -31,11 +31,18 @@ public class StringManipulations01 {
         boolean isExist = s.contains("easy");
         System.out.println(isExist);
 
-        boolean isStart = s.startsWith("J");
+        boolean isStart = s.startsWith("Java");
         System.out.println(isStart);
 
         boolean isEnd = s.endsWith("easy");
         System.out.println(isEnd);
+
+        String d ="Learn Java earn money";
+        String d1 = d.replace("money" , "manat");
+        System.out.println(d1);
+
+        String d2 = d.replace("e" , " ");
+        System.out.println(d2);
 
 
 
