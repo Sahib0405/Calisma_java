@@ -1,3 +1,4 @@
+package Day12;
 
 import java.util.Scanner;
 

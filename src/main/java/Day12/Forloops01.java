@@ -3,28 +3,37 @@ package Day12;
 public class Forloops01 {
     public static void main(String[] args) {
 
-    for (int i =2;   i < 10;  i++){
-        System.out.println(i);
-    }
-        System.out.println("Dongu bitdi");
+        //ornek 1: Verilen bir tamsayinin rakamlari toplamini console yazdiriniz.(interview sorusu)
+        //example 1: Print the sum of the digits of a given integer to the console
 
-        for (int i = 20; i > 2 ; i--) {
-            System.out.println(i);
-        }
-        System.out.println("------------------------------");
-        for (int i = 3; i < 21; i++) {
+        //           578 ==> 5+7+8=20 ==> Output 20 olmali
 
-            if (i % 2 == 0){
-                System.out.println(i);
+       int sum = 1;
+
+       for (int i = 578; i > 0; i = i /10) {
+           sum = sum * (i % 10);
+       }
+        System.out.println("sum = " +sum);
+
+        System.out.println("------------------------");
+
+        //Ornek 2: Bir String’teki tekrarsiz karakterleri veren kodu yaziniz.
+        //Example 2: Write the code that returns the non-repeating characters in a String.
+        // Yusuf ==> Ysf
+
+        String t = "Yusuf";
+        String unique = "";
+
+        for (int i = 0; i < t.length(); i++) {
+
+            char ch = t.charAt(i); //index verdik, bize harfi verecek
+
+            if (t.indexOf(ch) == t.lastIndexOf(ch)) { //esitse tekrarsizdir
+                unique = unique + ch;
             }
+
         }
-
-        for (int i = 4; i < 21; i+=2) {
-            System.out.println(i);
-        }
-        
-
-
+        System.out.println("Tekrarsiz : " + unique); //Tekrarsiz : Ysf
 
 
 

@@ -1,4 +1,4 @@
-
+package Day12;
 
 public class Forloops04 {
     public static void main(String[] args) {

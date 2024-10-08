@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Day12;
+
 import java.util.Scanner;
 
 public class OverFlow {

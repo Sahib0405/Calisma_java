@@ -1,3 +1,5 @@
+package Day12;
+
 public class Fotloops03 {
     public static void main(String[] args) {
 

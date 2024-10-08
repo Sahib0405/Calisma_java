@@ -1,3 +1,5 @@
+package Day12;
+
 public class Forloops05 {
     public static void main(String[] args) {
         //Ornek 1: Verilen sayıda ondalık kısımdaki rakamların toplamını bulunuz.
